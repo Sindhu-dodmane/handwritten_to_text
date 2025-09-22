@@ -61,11 +61,7 @@ python -m src.cli.extract --data_dir data --checkpoint checkpoints/best.pt --out
 python -m src.cli.knn --train features/train.npz --val features/val.npz --k 5 --metric cosine
 ```
 
-### Patent-oriented notes (non-legal)
-- Consider novelty in: curriculum and hard-negative mining for Kannada scripts, stroke-order simulation augmentations, adaptive class-balanced KNN with temperature scaling, and uncertainty-aware rejection for OOD glyphs.
-- Keep experiment logs and ablations to support claims.
-- Consult a patent attorney for prior art search and claim drafting.
+still not updated with dataset
 
-### License
-TBD by project owner.
+
 
